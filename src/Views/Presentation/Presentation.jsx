@@ -1,7 +1,7 @@
 import React from 'react';
 import "./index.scss"
 import { useEffect, useState } from 'react'
-import Button from '../../Componentes/Button';
+import Button from '../../Componentes/Button/Button';
 
 const Presentation = () => {
   const [text, settext] = useState('');
