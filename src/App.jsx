@@ -1,10 +1,12 @@
 import './App.scss'
-import Navbar from './Componentes/Navbar/Navbar'
+import Navbar from './Views/Navbar/Navbar'
+import Presentation from './Views/Presentation/Presentation'
 
 function App() {
   return (
     <>
       <Navbar/>
+      <Presentation/>
     </>
   )
 }

@@ -5,13 +5,13 @@ import "./index.scss";
 
 function Navbar() {
   return (
-    <header className='header'>
-      <ul className='header__names'>
+    <nav className='nav'>
+      <ul className='nav__names'>
         <li>Projetos</li>
         <li>Tecnologias</li>
         <li>Sobre mim</li>
       </ul>
-      <ul className='header__images'>
+      <ul className='nav__images'>
         <li>
           <img src={github} alt="github icon"/>
         </li>
@@ -19,7 +19,7 @@ function Navbar() {
           <img src={linkedin} alt="github icon"/>
         </li>
       </ul>
-    </header>
+    </nav>
   )
 }
 
