@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    list-style: circle;
+    &__names{
+        color: #FFFFFF; 
+    }
+    &__images{
+    }
+}
