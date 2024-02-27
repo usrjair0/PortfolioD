@@ -5,4 +5,11 @@
     font-size: 1rem;
     padding: 7px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+}
+.button:hover {
+    transform: translateY(-5px); /* Subindo */
 }
