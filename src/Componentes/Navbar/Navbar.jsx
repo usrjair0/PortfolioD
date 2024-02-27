@@ -12,8 +12,12 @@ function Navbar() {
         <li>Sobre mim</li>
       </ul>
       <ul className='header__images'>
-        <li><img src={github} alt="github icon"/></li>
-        <li><img src={linkedin} alt="github icon"/></li>
+        <li>
+          <img src={github} alt="github icon"/>
+        </li>
+        <li>
+          <img src={linkedin} alt="github icon"/>
+        </li>
       </ul>
     </header>
   )
