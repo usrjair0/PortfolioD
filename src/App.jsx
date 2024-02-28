@@ -1,4 +1,5 @@
 import './App.scss'
+import AboutMe from './Views/AboutMe/AboutMe'
 import Navbar from './Views/Navbar/Navbar'
 import Presentation from './Views/Presentation/Presentation'
 import ProjectSec from './Views/ProjectSec/ProjectSec'
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Presentation/>
       <ProjectSec />
+      <AboutMe />
     </>
   )
 }
