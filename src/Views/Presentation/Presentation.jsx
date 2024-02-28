@@ -41,7 +41,7 @@ const Presentation = () => {
           <h3>
           Sou desenvolvedor e estudante de engenharia de software apaixanado por programação. 
           Neste porfólio deixo registrados alguns dos meus trabalhos para que você possa conferir.
-          Se meu trabalho te interessar, sinta-se a vontade para entrar em contato comigo
+          Se meu trabalho te interessar, sinta-se a vontade para entrar em contato comigo.
           </h3>
           <div className='main__text__button'>
             <Button text="Saber mais" width="200px"/>
