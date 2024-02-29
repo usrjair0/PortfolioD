@@ -31,7 +31,7 @@
 }
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
 	border:solid 2px #fff;	 
-	background: linear-gradient(to right, #E91E63 0%,#fff 100%); 
+	background: linear-gradient(to right, #6c1ee9 0%, #603a9d 50%,#fff 100%); 
 }
 
 #progress-bar-container li {
@@ -124,7 +124,8 @@
 #progress-content-section .section-content h2 {
 	font-size:17px;
 	text-transform:uppercase;
-	color:#333;
+	// color:#333;
+	color: #ffffff;
 	letter-spacing:1px;
 }
 
@@ -136,6 +137,7 @@
 
 #progress-content-section .section-content {
 	display:none;
+	//FadeInUp
 	animation: FadeInUp 700ms ease 1;
 	animation-fill-mode:forwards;
 	transform:translateY(15px);
@@ -148,8 +150,8 @@
 
 @keyframes FadeInUp {
 	0% {
-		transform:translateY(15px);
-		opacity:0;
+		transform:translateY(0px);
+		opacity:0.95;
 	}
 	
 	100% {
