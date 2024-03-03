@@ -3,7 +3,7 @@ import "./index.scss";
 
 const AboutMe = () => {
 
-    const [progressWidth, setProgressWidth] = useState("8.5%");
+    const [progressWidth, setProgressWidth] = useState("0%");
     const [activeYear, setActiveYear] = useState('ano2022');
 
     const handleStepClick = (width, year) => {
@@ -18,13 +18,13 @@ const AboutMe = () => {
             <div className="process-wrapper">
                 <div id="progress-bar-container">
                     <ul>
-                        <li className={`step step01 ${activeYear === 'ano2022' ? 'active' : ''}`} onClick={() => handleStepClick('8.5%', 'ano2022')}>
+                        <li className={`step step01 ${activeYear === 'ano2022' ? 'active' : ''}`} onClick={() => handleStepClick('0%', 'ano2022')}>
                             <div className="step-inner">2022</div>
                         </li>
                         <li className={`step step02 ${activeYear === 'ano2023' ? 'active' : ''}`} onClick={() => handleStepClick('50%', 'ano2023')}>
                             <div className="step-inner">2023</div>
                         </li>
-                        <li className={`step step03 ${activeYear === 'ano2024' ? 'active' : ''}`} onClick={() => handleStepClick('92%', 'ano2024')}>
+                        <li className={`step step03 ${activeYear === 'ano2024' ? 'active' : ''}`} onClick={() => handleStepClick('100%', 'ano2024')}>
                             <div className="step-inner">2024</div>
                         </li>
                     </ul>
