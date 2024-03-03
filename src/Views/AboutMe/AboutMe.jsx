@@ -39,24 +39,23 @@ const AboutMe = () => {
                         <p>
                             Cursei engenharia elétrica até esse ano que foi durante o periodo da pandemia. Tive 
                             meu primeiro contato com a programação com uma matéria chamada programação avançada. Após 
-                            isso eu comecei a gostar bastante da área e me identificar ao ponto de ter trocar o curso
-                            por engenharia de software e evoluir na área de desenvolvimento web.
+                            isso eu comecei a gostar bastante da área e me identificar ao ponto de no ano seguinte
+                            optar por cursar engenharia de software e evoluir na área de desenvolvimento web.
                         </p>
                     </div>
                     <div className={`section-content ${activeYear === 'ano2023' ? 'active' : ''}`}>
                         <h2>2023</h2>
                         <p>
-                            No ano de 2023 comecei a estudar com materiais na internet e cursos gratuitos.
+                            No ano de 2023 comecei a estudar com materiais na internet e cursos gratuitos. Comecei um curso
+                            completo de desenvolvimento full stack na escola DNC, me matriculei na faculdade no curso de 
+                            engenharia de software, comecei a criar projetos e começar a me desenvolver como freelancer.
                         </p>
                     </div>
 
                     <div className={`section-content ${activeYear === 'ano2024' ? 'active' : ''}`}>
                         <h2>2024</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Dolorem consequatur repellendus pariatur, voluptatibus est sed reiciendis
-                            , totam vel, expedita recusandae odio numquam harum. Id impedit libero
-                            ipsam tempore laborum facere.
+                            Sigo estudando e me adquirindo conhecimentos na área de desenvolvimento web
                         </p>
 
                     </div>
