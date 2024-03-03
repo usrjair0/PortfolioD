@@ -1,0 +1,35 @@
+.footer{
+    color: #FFFFFF;
+    &__Content{
+        
+        width: 90%;
+        margin: 60px auto 40px auto;
+    }
+    &__Itens{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__Contacts{
+        display: flex;
+        flex-direction: row;
+        column-gap: 60px;
+    }
+    &__PhoneNumber{
+        display: flex;
+        flex-direction: column;
+    }
+    &__Mail{
+        display: flex;
+        flex-direction: column;
+    }
+    &__Links{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        align-self: baseline;
+        >img{
+            margin-top: -3px;
+        }
+    }
+}
