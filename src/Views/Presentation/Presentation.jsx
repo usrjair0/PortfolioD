@@ -44,7 +44,9 @@ const Presentation = () => {
           Se meu trabalho te interessar, sinta-se a vontade para entrar em contato comigo.
           </h3>
           <div className='main__text__button'>
-            <Button text="Saber mais" width="200px"/>
+            <a href="https://www.linkedin.com/in/jairosilva1a/" target='_blank'>
+              <Button text="Saber mais" width="200px"/>
+            </a>
           </div>
         </div>
     </main>
