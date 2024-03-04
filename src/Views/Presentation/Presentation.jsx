@@ -8,7 +8,7 @@ const Presentation = () => {
     const toRotate = ['Me chamo Jairo!  ', 'Sou Desenvolvedor Front End!  ', 'Sou Desenvolvedor web!  '];
     const [loop, setloop] = useState(0);
     const [isDeleting, setisDeleting] = useState(false);
-    const period = 130;
+    const period = 90;
     const [delta, setdelta] = useState(130);
 
     useEffect(() => {
@@ -16,8 +16,8 @@ const Presentation = () => {
             toType()
         }, delta)
         return () => { clearInterval(ticker) }
-    }, [text]);
-    const toType = () => {
+        }, [text]);
+        const toType = () => {
         let i = loop % toRotate.length; // isso limita meu i a um valor entre 0 e 2 no máximo
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -35,7 +35,7 @@ const Presentation = () => {
         }
     }
   return (
-    <main className="main">
+    <main className="main" id='presentation'>
         <h1>{text}</h1>
         <div className="main__text">
           <h3>

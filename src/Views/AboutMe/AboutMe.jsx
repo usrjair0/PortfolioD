@@ -12,7 +12,7 @@ const AboutMe = () => {
     };
 
     return (
-        <div className='AboutMe'>
+        <div className='AboutMe' id='AboutMeId'>
             <h1>Sobre mim</h1>
 
             <div className="process-wrapper">

@@ -8,7 +8,7 @@ import Ecommercjs from '../../assets/Ecommercjs.png';
 
 const ProjectSec = () => {
   return (
-    <section className='section'>
+    <section className='section' id='projectSec'>
       <h1>Projetos</h1>
       <div className='section__Project'>
         <Projects 
