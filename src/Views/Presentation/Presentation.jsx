@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react'
 import Button from '../../Componentes/Button/Button';
 
 const Presentation = () => {
-  const [text, settext] = useState(' ');
-    const toRotate = ['Me chamo Jairo!  ', 'Sou Desenvolvedor Front End!  ', 'Sou Desenvolvedor web!  '];
+  const [text, settext] = useState('');
+    const toRotate = [' Me chamo Jairo!', ' Sou Desenvolvedor Front End!', ' Sou Desenvolvedor web!'];
     const [loop, setloop] = useState(0);
     const [isDeleting, setisDeleting] = useState(false);
     const period = 90;
@@ -20,7 +20,7 @@ const Presentation = () => {
 
         const toType = () => {
         let i = loop % toRotate.length; // isso limita meu i a um valor entre 0 e 2 no máximo
-        let fullText = toRotate[i];
+        let fullText = toRotate[i];  
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
         settext(updatedText);
 
@@ -37,7 +37,7 @@ const Presentation = () => {
     }
   return (
     <main className="main" id='presentation'>
-        <h1>{text}</h1>
+        <h1><pre>{text}</pre></h1>
         <div className="main__text">
           <h3>
           Sou desenvolvedor e estudante de engenharia de software apaixanado por programação. 
