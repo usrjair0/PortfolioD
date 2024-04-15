@@ -1,7 +1,8 @@
 .footer{
     color: #FFFFFF;
-    &__Content{
-        
+    max-width: 100%;
+    overflow-x: hidden;
+    &__Content{  
         width: 90%;
         margin: 60px auto 40px auto;
     }
