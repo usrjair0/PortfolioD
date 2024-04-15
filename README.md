@@ -28,14 +28,27 @@ https://jpersonalp.netlify.app/
 ## Histórico de Versionamento
 
 ### :pushpin: Versão 1.0.0 (15 de abril de 2024)
-- Adicionado recurso de login com email e senha.
-- Implementada página de perfil do usuário.
-- Corrigidos diversos bugs de interface.
+- Versão estável para desktop
+- Ocultando barra de rolagem horizontal.
+- Corrigindo visualização na seção presentation 
 
-### :pushpin: Versão 0.2.0 (5 de abril de 2024)
-- Melhorias na velocidade de carregamento da aplicação.
-- Adicionada opção de compartilhar postagens nas redes sociais.
-- Corrigidos problemas de compatibilidade com navegadores móveis.
+### :pushpin: Versão 0.4.1 (04 de março de 2024)
+- Pequenas mudanças de readme e links importantes adicionados ao portfólio.
+  
+### :pushpin: Versão 0.4.0 (03 de março de 2024)
+- Criação da seção footer.
+- Mudanças e organização de código.
+- Mudanças seção sobre mim
 
-### :pushpin: Versão 0.1.0 (20 de março de 2024)
+### :pushpin: Versão 0.3.0 (28 de fevereiro de 2024)
+- Criação da seção about me.
+
+### :pushpin: Versão 0.2.0 (27 de fevereiro de 2024)
+- Criação da seção projetos.
+- Inclusão dos projetos no portfólio.
+
+### :pushpin: Versão 0.1.0 (26 de fevereiro de 2024)
 - Lançamento inicial do projeto.
+- Criação da Navbar.
+- Criação da seção Presentation.
+- Criação botões da seção presentation
