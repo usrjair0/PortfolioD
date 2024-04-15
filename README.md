@@ -1,3 +1,4 @@
 # Desafio DNC portfólio
 
-link site: https://portfoliodncdnc.netlify.app/
+link para o porfolio:
+https://jpersonalp.netlify.app/
