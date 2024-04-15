@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Button from '../../Componentes/Button/Button';
 
 const Presentation = () => {
-  const [text, settext] = useState('');
+  const [text, settext] = useState(' ');
     const toRotate = ['Me chamo Jairo!  ', 'Sou Desenvolvedor Front End!  ', 'Sou Desenvolvedor web!  '];
     const [loop, setloop] = useState(0);
     const [isDeleting, setisDeleting] = useState(false);
@@ -17,20 +17,21 @@ const Presentation = () => {
         }, delta)
         return () => { clearInterval(ticker) }
         }, [text]);
+
         const toType = () => {
         let i = loop % toRotate.length; // isso limita meu i a um valor entre 0 e 2 no máximo
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
         settext(updatedText);
+
         if (!isDeleting && updatedText === fullText) {
             setisDeleting(true);
             setdelta(period)
-
-        } else if (isDeleting && updatedText === '') {
+        } else if (isDeleting && updatedText === ' ') {
             setisDeleting(false);
             setdelta(period);
             setloop(loop + 1);
-        } else if (isDeleting && updatedText !== '') {
+        } else if (isDeleting && updatedText !== ' ') {
             setdelta(70);
         }
     }
